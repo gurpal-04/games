@@ -21,7 +21,7 @@ function shoot(enemy) {
     
     audio.play();
     audio_enemyDead.play();
-    
+
     if(!enemy.classList.contains("dead")){
         score+=5;
     }
